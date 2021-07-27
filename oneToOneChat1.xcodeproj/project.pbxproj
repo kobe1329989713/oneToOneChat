@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FB7D5C26AED6AD003764D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D5026AED6AD003764D8 /* ViewController.swift */; };
+		04FB7D5D26AED6AD003764D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5126AED6AD003764D8 /* Assets.xcassets */; };
+		04FB7D5E26AED6AD003764D8 /* pic15.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5226AED6AD003764D8 /* pic15.png */; };
+		04FB7D5F26AED6AD003764D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5326AED6AD003764D8 /* LaunchScreen.storyboard */; };
+		04FB7D6026AED6AD003764D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5526AED6AD003764D8 /* Main.storyboard */; };
+		04FB7D6126AED6AD003764D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5726AED6AD003764D8 /* Main.storyboard */; };
+		04FB7D6226AED6AD003764D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D5826AED6AD003764D8 /* AppDelegate.swift */; };
+		04FB7D6326AED6AD003764D8 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D5926AED6AD003764D8 /* pic.png */; };
+		04FB7D6526AED6AD003764D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D5B26AED6AD003764D8 /* SceneDelegate.swift */; };
 		B6FF02C826AECC3C00ACF744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF02C726AECC3C00ACF744 /* AppDelegate.swift */; };
 		B6FF02CA26AECC3C00ACF744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF02C926AECC3C00ACF744 /* SceneDelegate.swift */; };
 		B6FF02CC26AECC3C00ACF744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF02CB26AECC3C00ACF744 /* ViewController.swift */; };
@@ -17,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FB7D5026AED6AD003764D8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FB7D5126AED6AD003764D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FB7D5226AED6AD003764D8 /* pic15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic15.png; sourceTree = "<group>"; };
+		04FB7D5426AED6AD003764D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FB7D5626AED6AD003764D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FB7D5726AED6AD003764D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04FB7D5826AED6AD003764D8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FB7D5926AED6AD003764D8 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		04FB7D5B26AED6AD003764D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6FF02C426AECC3C00ACF744 /* oneToOneChat1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneToOneChat1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF02C726AECC3C00ACF744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6FF02C926AECC3C00ACF744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +57,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FB7D4F26AED6AD003764D8 /* oneToOneChat */ = {
+			isa = PBXGroup;
+			children = (
+				04FB7D5026AED6AD003764D8 /* ViewController.swift */,
+				04FB7D5126AED6AD003764D8 /* Assets.xcassets */,
+				04FB7D5226AED6AD003764D8 /* pic15.png */,
+				04FB7D5326AED6AD003764D8 /* LaunchScreen.storyboard */,
+				04FB7D5526AED6AD003764D8 /* Main.storyboard */,
+				04FB7D5726AED6AD003764D8 /* Main.storyboard */,
+				04FB7D5826AED6AD003764D8 /* AppDelegate.swift */,
+				04FB7D5926AED6AD003764D8 /* pic.png */,
+				04FB7D5B26AED6AD003764D8 /* SceneDelegate.swift */,
+			);
+			path = oneToOneChat;
+			sourceTree = "<group>";
+		};
 		B6FF02BB26AECC3C00ACF744 = {
 			isa = PBXGroup;
 			children = (
+				04FB7D4F26AED6AD003764D8 /* oneToOneChat */,
 				B6FF02C626AECC3C00ACF744 /* oneToOneChat1 */,
 				B6FF02C526AECC3C00ACF744 /* Products */,
 			);
@@ -96,6 +131,9 @@
 		B6FF02BC26AECC3C00ACF744 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -127,8 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB7D6326AED6AD003764D8 /* pic.png in Resources */,
+				04FB7D6026AED6AD003764D8 /* Main.storyboard in Resources */,
 				B6FF02D426AECC3F00ACF744 /* LaunchScreen.storyboard in Resources */,
 				B6FF02D126AECC3F00ACF744 /* Assets.xcassets in Resources */,
+				04FB7D6126AED6AD003764D8 /* Main.storyboard in Resources */,
+				04FB7D5D26AED6AD003764D8 /* Assets.xcassets in Resources */,
+				04FB7D5F26AED6AD003764D8 /* LaunchScreen.storyboard in Resources */,
+				04FB7D5E26AED6AD003764D8 /* pic15.png in Resources */,
 				B6FF02CF26AECC3C00ACF744 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB7D6226AED6AD003764D8 /* AppDelegate.swift in Sources */,
+				04FB7D6526AED6AD003764D8 /* SceneDelegate.swift in Sources */,
+				04FB7D5C26AED6AD003764D8 /* ViewController.swift in Sources */,
 				B6FF02CC26AECC3C00ACF744 /* ViewController.swift in Sources */,
 				B6FF02C826AECC3C00ACF744 /* AppDelegate.swift in Sources */,
 				B6FF02CA26AECC3C00ACF744 /* SceneDelegate.swift in Sources */,
@@ -150,6 +197,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		04FB7D5326AED6AD003764D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB7D5426AED6AD003764D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04FB7D5526AED6AD003764D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB7D5626AED6AD003764D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		B6FF02CD26AECC3C00ACF744 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E67EBLN3KK;
 				INFOPLIST_FILE = oneToOneChat1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E67EBLN3KK;
 				INFOPLIST_FILE = oneToOneChat1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
